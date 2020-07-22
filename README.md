@@ -1,5 +1,7 @@
 # 广告点击率(CTR)预测经典模型 GBDT + LR 理解与实践（附数据 + 代码）
 
+本文对应博客地址：https://blog.csdn.net/VariableX/article/details/107385704
+
 CTR预估早期使用最多的方案是逻辑回归(LR)，LR 性能非常高，但是其效果十分依赖于大量的特征工程。但是手动构造许多有用特征费时费力，因此需要有更自动化的方法来发现有效特征并构造组合特征。
 
 2004 年Facebook 在论文 Practical Lessons from Predicting Clicks on Ads at Facebook 中提出的 GBDT + LR 模型给出了一个可行的解决方案。
